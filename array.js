@@ -1,4 +1,5 @@
-let athletes = ['Lebron', 'Kobe', 'Jordan', 'Shaq']
-let join = athletes.toString()
+function joinArray(arr) {
+	return arr.join();
+}
 
-console.log(join)
+console.log(joinArray(['red', 'white', 'blue', 'yellow']))
